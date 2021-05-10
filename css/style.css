@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(161, 161, 142);
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.semafaro_js{
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: rgb(255, 232, 28);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.button {
+    width: 80px;
+}
+
+#red{
+    background: rgb(240, 8, 8);
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+
+#yellow{
+    background: rgb(251, 255, 0);
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: rgb(19, 18, 18);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+
+
+}
+#green{
+    background: rgb(0, 192, 10);
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+
+
+}
+
+#automatic{
+    width: 89px !important;
+    background: rgb(82, 79, 79);
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+
+
+}
